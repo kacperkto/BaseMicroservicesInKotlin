@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: "demo"
+  datasource:
+      url: jdbc:h2:mem:testdb
+      driverClassName: org.h2.Driver
+      username: sa
+      password:
+
+  h2:
+      console:
+        enabled: true
+
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+server:
+  port: 15815
+logging.level.org.springframework.web: DEBUG
+
+

@@ -1,0 +1,3 @@
+microservice:
+  example:
+    demo: "hello from config server"

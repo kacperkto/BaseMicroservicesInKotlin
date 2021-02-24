@@ -1,0 +1,6 @@
+zuul:
+  ignoredServices: '*'
+  routes:
+    demo:
+      path: /de/**
+        serviceId: demo
